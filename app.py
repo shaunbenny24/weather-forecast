@@ -20,10 +20,11 @@ def index():
         atmosphere = python_dict['weather'][0]['description']
         country = python_dict['sys']['country']
         wind = python_dict['wind']['speed']
+        temp = round(python_dict['main']['temp']-273.15,2)
         # location = python_dict['sys']['name']
         pressure = python_dict['main']['pressure']
         humidity = python_dict['main']['humidity']
-        return render_template('weather.html', country = country , humidity = humidity ,pressure = pressure , data=data ,atmosphere= atmosphere, wind = wind)
+        return render_template('weather.html',temp = temp ,country = country , humidity = humidity ,pressure = pressure , data=data ,atmosphere= atmosphere, wind = wind)
     else:
 
         return render_template('weather.html')

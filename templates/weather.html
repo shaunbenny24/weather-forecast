@@ -22,49 +22,54 @@
 
 
             <div class="mini">
-            
+                <img class="img" src="../static/lo.png">
                 <h5>LOCATION</h5>
                 <p>{{data}}</p>   
             </div>
 
             <div class=" mini">
-        
+                <img class="img" src="../static/glob.png">
                 <h5>COUNTRY</h5>
                 <p>{{country}}</p>   
             </div>
             <div class="mini">
-            
+                <img class="img" src="../static/6.png">
                     <h5>HUMIDITY</h5>
-                    <p> {{humidity}} </p>   
+                    <p> {{humidity}}% </p>   
                 </div>
 
             </section>
             <section class="second">
             <div class="mini">
-            
+                <img class="img" src="../static/7.png">
                     <h5>WIND SPEED</h5>
-                    <p> {{wind}}</p>   
+                    <p> {{wind}}km/hr</p>   
                 </div>
         
             <div class="mini">
-            
+                    <img class="img" src="../static/8.png"> 
                     <h5>PRESSURE</h5>
-                    <p> {{pressure}} </p>   
+                    <p> {{pressure}}hPa </p>   
                 </div>
             
             <div  class="mini">
-            
+                <img class="img" src="../static/03_iday.svg">
                     <h5>WEATHER CONDITION</h5>
                     <p> {{atmosphere}}</p>   
                 </div>
+                <div  class="mini">
+                    <img class="img" src="../static/5.png">
+                        <h5>TEMPERATURE</h5>
+                        <p> {{temp}}°C</p>   
+                    </div>
         </section>
         <div class="play">
             <a href="{{url_for('index')}}"><h3>check again</h3></a>
             </div>
 
        {%else%}
-      <h1></h1>
-        </div>
+      <h2> Please Type again </h2>
+        
         {%endif%}
 
 

@@ -4,17 +4,24 @@
 }
 
 body{
-    background: url(https://free4kwallpapers.com/uploads/originals/2015/08/08/dark-blue-sky-clouds.jpg);
-background-size: cover;
+    background: url(https://www.maxpixel.net/static/photo/1x/Grey-Clouds-Weather-Background-Dark-Light-4050451.jpg);
+    background-size: cover;
+ 
 
 }
 
+h2{
+    color: white;
+    font-size: large;
+    text-align: center;
+}
 
 .main{
     text-align: center;
      font-size: 40px;
     color: aliceblue;
-    margin-top: 90px;
+    margin-top: 40px;
+ 
 }
 button{
     background: lightblue;
@@ -51,7 +58,7 @@ input{
     justify-content: center;
     font-size: 31px;
     color: white;
-    margin: 40px auto;
+    margin: 10px auto;
 }
 .play{
     text-align: center;
@@ -84,3 +91,6 @@ input{
 
 }
     
+.img{
+    width: 80px;
+}
