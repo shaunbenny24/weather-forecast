@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: url(https://free4kwallpapers.com/uploads/originals/2015/08/08/dark-blue-sky-clouds.jpg);
+background-size: cover;
+
+}
+
+
+.main{
+    text-align: center;
+     font-size: 40px;
+    color: aliceblue;
+    margin-top: 90px;
+}
+button{
+    background: lightblue;
+}
+input{
+    border: 1px solid wheat;
+    border-radius: 5px;
+    font-size: medium;
+    margin: 15px;
+    text-align: center;
+}
+
+
+.box{
+    display:flex;
+    text-align: center;
+    margin:0 auto;
+
+
+}
+
+.second{
+
+    display:flex;
+    text-align: center;
+    margin:0 auto;
+
+
+}
+
+
+.mini{
+    text-align: center;
+    justify-content: center;
+    font-size: 31px;
+    color: white;
+    margin: 40px auto;
+}
+.play{
+    text-align: center;
+    max-width: 80px;
+    margin : 0 auto;
+    border-radius: 12px;
+}
+
+a{text-decoration: none;
+color: white;
+font-size: 20px;}
+
+.play:hover{
+    color: white;
+    background-color: rgb(212, 214, 235);
+
+}
+
+input{
+    width: 202px;
+    height: 38px;
+    border-radius: 8px;
+    background: transparent;
+    color: white;
+}
+::placeholder{
+    margin-left :15px;
+    color: white; 
+    font-size: medium;
+
+}
+    
